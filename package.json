@@ -6,19 +6,33 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@prismicio/client": "^7.4.1",
+    "@prismicio/helpers": "^2.3.9",
+    "@prismicio/next": "^1.5.0",
+    "@prismicio/react": "^2.7.4",
+    "@stripe/stripe-js": "^3.3.0",
+    "axios": "^1.6.8",
+    "faunadb": "^4.8.0",
+    "next": "14.2.0",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.0"
+    "react-icons": "^5.0.1",
+    "sass": "^1.75.0",
+    "stripe": "^15.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@slicemachine/adapter-next": "^0.3.38",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.0"
+    "eslint-config-next": "14.2.0",
+    "slice-machine-ui": "^1.26.0",
+    "typescript": "^5"
   }
 }

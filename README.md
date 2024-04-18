@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignews
 
-## Getting Started
+Ignews é um blog moderno e exclusivo, projetado para entusiastas de tecnologia e desenvolvimento que desejam se manter atualizados com as últimas tendências e insights do setor. O acesso aos conteúdos do blog é exclusivo para usuários que se cadastram utilizando suas contas do GitHub e optam pelo plano de assinatura mensal.
 
-First, run the development server:
+## Rodando localmente
+
+Clone o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/IsraelBarbosa/ignews
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre no diretório do projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd ignews
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Instale as dependências
 
-## Learn More
+```bash
+  yarn
+```
 
-To learn more about Next.js, take a look at the following resources:
+Inicie o servidor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Stack utilizada
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* React
+* Next
+* TypeScript
+* Sass
+* FaunaDB
+* Stripe
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Aprendizados
+
+* React: é uma biblioteca JavaScript popular para construir interfaces de usuário, especialmente para aplicações de página única. 
+
+* TypeScript é um superconjunto de JavaScript que adiciona tipos estáticos.
+
+* NextJS: Next.js é um framework React que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicações baseadas em React.
+
+* Prismic é um CMS headless que permite gerenciar o conteúdo e disponibilizá-lo através de uma API RESTful ou GraphQL.
+
+* Stripe é uma ferramenta poderosa para lidar com pagamentos online. Integrar a API do Stripe permite processar pagamentos em aplicações de forma segura e eficiente.
+
+* Sass para estilização: Sass (Syntactically Awesome Style Sheets) é uma linguagem de script de pré-processamento que é interpretada ou compilada em Cascading Style Sheets (CSS). 
+
+
+## Funcionalidades
+
+O projeto oferece as seguintes funcionalidades:
+
+- Autenticação via GitHub: Acesse facilmente usando sua conta do GitHub, garantindo uma experiência de usuário segura e conveniente.
+- Assinatura Mensal: Por apenas $9.90 ao mês, os assinantes têm acesso ilimitado a todos os posts.
+- Conteúdo Exclusivo: Nossos posts são cuidadosamente elaborados por especialistas em tecnologia, oferecendo análises profundas e informações valiosas sobre as últimas novidades do mundo tech.
+
+
+## Screenshots
+
+![screenshot](screenshots/tela_inicial.png)
+
+![screenshot](screenshots/tela_posts.png)
+
+![screenshot](screenshots/tela_post.png)
