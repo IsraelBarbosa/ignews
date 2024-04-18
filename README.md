@@ -7,7 +7,7 @@ Ignews é um blog moderno e exclusivo, projetado para entusiastas de tecnologia 
 Clone o projeto
 
 ```bash
-  git clone https://github.com/IsraelBarbosa/ignews
+  git clone https://github.com/IsraelBarbosa/ignews.git
 ```
 
 Entre no diretório do projeto
